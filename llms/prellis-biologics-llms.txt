@@ -1,0 +1,45 @@
+# Prellis Biologics
+
+> Berkeley, California biotechnology company discovering fully human antibody therapeutics
+> by pairing wet-lab human immunology with machine learning. Its EXIS (Externalized Immune
+> System) platform uses LNO lymph node organoids — 3D tissue printed with holographic
+> two-photon photolithography — to recreate human lymph node biology in vitro, raise true
+> human antibody responses across genetically diverse donors, and feed the resulting
+> sequence and characterization data into generative AI models that predict and optimize
+> candidates in an iterative lab loop.
+
+Prellis Biologics sells antibody discovery collaborations and licensed therapeutic programs
+to pharmaceutical partners. It is not a software vendor: as of 2026-08-05 it publishes no
+public API, SDK, developer portal, documentation site, or machine-readable specification.
+No `/openapi.json`, `/graphql`, `/llms.txt`, MCP endpoint, or `/.well-known/` document was
+found on any host. Engagement is via the partnering and contacts pages below.
+
+## Company
+
+- [Home](https://prellisbio.com/): Company overview and EXIS platform positioning.
+- [About](https://prellisbio.com/about): Leadership, Berkeley CA location, investors.
+- [Technology](https://prellisbio.com/technology): EXIS platform, LNO lymph node organoids, AI-guided screening and optimization loop.
+- [Portfolio](https://prellisbio.com/portfolio): First-in-class biologic programs.
+- [Partnering](https://prellisbio.com/partnering): How pharmaceutical partners engage the discovery platform.
+- [Contacts](https://prellisbio.com/contacts): Contact routes.
+- [Careers](https://prellisbio.com/careers): Open roles.
+
+## News
+
+- [News & Media](https://prellisbio.com/news-and-media): Company news index.
+- [Press Releases](https://prellisbio.com/press-releases): Announcements including pharma collaborations.
+
+## Policies
+
+- [Privacy Policy](https://prellisbio.com/privacy-policy)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/prellis-biologics/refs/heads/main/apis.yml): Machine-readable APIs.json profile of this company.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/prellis-biologics/refs/heads/main/security/prellis-biologics-domain-security.yml): TLS/HSTS/DNSSEC/SPF/DMARC posture for prellisbio.com.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/prellis-biologics/refs/heads/main/well-known/prellis-biologics-well-known.yml): Result of the /.well-known/ discovery sweep (all 404).
+
+## Optional
+
+- [GitHub organization](https://github.com/PrellisBiologics): Exists but publishes zero public repositories.
+- [Forge Global secondary-market listing](https://forgeglobal.com/prellis-biologics_stock/): Where this company entered the API Evangelist harvest backlog.

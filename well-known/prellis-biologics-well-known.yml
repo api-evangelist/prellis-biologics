@@ -1,0 +1,33 @@
+generated: '2026-08-05'
+method: probed
+source: https://prellisbio.com/.well-known/
+host: https://prellisbio.com
+note: >-
+  Every /.well-known/ path probed returned HTTP 404 from the Next.js application's
+  catch-all not-found handler (content-type text/html, ~59KB HTML shell). No document
+  was saved because none exists. The www.prellisbio.com host returned identical
+  results. This artifact records the probe, not a discovery surface — no WellKnown
+  pointer is wired in apis.yml because there is nothing to point at.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/oauth-protected-resource
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+x-evidence:
+  fetched: '2026-08-05'
+  hosts_probed:
+  - https://prellisbio.com
+  - https://www.prellisbio.com
+  content_type_observed: text/html; charset=utf-8

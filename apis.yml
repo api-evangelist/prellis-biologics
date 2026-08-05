@@ -1,17 +1,36 @@
 aid: prellis-biologics
 name: Prellis Biologics
-description: 'Prellis Biologics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Prellis Biologics is a Berkeley, California biotechnology company that
+  discovers fully human antibody therapeutics by combining wet-lab human immunology
+  with machine learning. Its EXIS (Externalized Immune System) platform uses LNO lymph
+  node organoids — 3D tissue printed with holographic two-photon photolithography —
+  to recreate human lymph node biology in vitro, raise true human antibody responses
+  across genetically diverse donors, and feed the resulting sequence and characterization
+  data into generative AI models that predict and optimize candidates in an iterative
+  lab loop. The company sells antibody discovery collaborations and licensed therapeutic
+  programs to pharmaceutical partners rather than software, and publishes no public
+  developer program, API, SDK, or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/prellis-biologics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-secondary-market: https://forgeglobal.com/prellis-biologics_stock/
 x-tier: stub
 x-tier-reason: harvest
+image: https://cdn.sanity.io/images/km3brrze/production/7c3deebab6b574ce1b0943968cacc7c22cf94f20-1200x630.jpg
 specificationVersion: '0.20'
 created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Antibody Discovery
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Bioprinting
+- Therapeutics
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/prellis-biologics-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/prellis-biologics_stock/
+  url: https://prellisbio.com/
+- type: About
+  url: https://prellisbio.com/about
+- type: Blog
+  url: https://prellisbio.com/news-and-media
+- type: PrivacyPolicy
+  url: https://prellisbio.com/privacy-policy
+- type: Support
+  url: https://prellisbio.com/contacts
+- type: GitHubOrganization
+  url: https://github.com/PrellisBiologics
+- type: LLMsTxt
+  url: llms/prellis-biologics-llms.txt
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Prellis Biologics sells antibody discovery collaborations and licensed
+    therapeutic programs to pharma partners rather than software — its entire
+    site is fourteen marketing pages with no developer, docs, platform or login
+    section, and api./docs./developer./app.prellisbio.com do not resolve at all.
+  evidence:
+    - url: https://prellisbio.com/sitemap.xml
+      status: 200
+    - url: https://prellisbio.com/openapi.json
+      status: 404
+    - url: https://prellisbio.com/.well-known/agent-card.json
+      status: 404
+    - url: https://prellisbio.com/llms.txt
+      status: 404
+    - url: https://prellisbio.com/graphql
+      status: 404
+  checked: '2026-08-05'
