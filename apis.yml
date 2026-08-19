@@ -17,7 +17,7 @@ x-secondary-market: https://forgeglobal.com/prellis-biologics_stock/
 x-tier: stub
 x-tier-reason: harvest
 image: https://cdn.sanity.io/images/km3brrze/production/7c3deebab6b574ce1b0943968cacc7c22cf94f20-1200x630.jpg
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-05'
 modified: '2026-08-05'
 tags:
